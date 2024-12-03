@@ -1,0 +1,323 @@
+/* * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #f0f4f7;
+    color: #333;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+header h1 {
+    text-align: center;
+    color: #28a745;
+    margin-bottom: 10px;
+}
+
+header p {
+    text-align: center;
+    color: #666;
+    margin-bottom: 30px;
+}
+
+.testimonials {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border-left: 5px solid #28a745;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+.testimonial .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.testimonial .profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-right: 15px;
+}
+
+/* .user-info h3 {
+    margin-bottom: 5px; /* Adds space between name and rating */
+    /* font-size: 1.2em;
+    color: #28a745;
+}
+
+.rating {
+    font-size: 1.1em;
+    color: #ffb400;
+}
+
+.feedback {
+    font-size: 1em;
+    line-height: 1.6;
+    color: #555;
+}
+
+footer {
+    text-align: center;
+    margin-top: 30px;
+    font-size: 0.9em;
+    color: #666;
+} */ 
+
+/* .testimonial .profile {
+    display: flex;
+    flex-direction: column; 
+    align-items: center; 
+    margin-bottom: 10px;
+}
+
+.testimonial .profile img {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px; 
+
+.testimonial .profile h3 {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-bottom: 5px; 
+    text-align: center;
+}
+
+.testimonial .profile .rating {
+    font-size: 1.1em;
+    color: #ffb400;
+    text-align: center; 
+} */
+
+/* General container styling */
+/* .testimonials {
+    display: flex;               
+    justify-content: space-between; 
+    gap: 20px;                   
+    flex-wrap: wrap;             
+}
+
+.testimonial {
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+    flex: 1;                      
+    min-width: 250px;             
+    max-width: 300px;             
+    text-align: center;           
+
+
+.testimonial .profile {
+    display: flex;
+    flex-direction: column;      
+    align-items: center;          
+    margin-bottom: 15px;
+}
+
+.testimonial .profile img {
+    border-radius: 50%;           
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+}
+
+.testimonial .profile h3 {
+    font-size: 1.2em;
+    color: #28a745;
+    margin-bottom: 5px;
+}
+
+.testimonial .profile .rating {
+    font-size: 1.1em;
+    color: #ffb400;
+}
+
+
+.feedback {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #555;
+}
+
+ */
+
+ 
+/* 
+
+/* General container styling */
+/* .testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.testimonial {
+    background-color: #4CAF50; 
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    color: white; 
+    transition: transform 0.3s ease; 
+}
+
+.testimonial:hover {
+    transform: translateY(-5px); /
+}
+
+
+.testimonial .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.testimonial .profile img {
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid white; 
+}
+
+.testimonial .profile h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #fff; 
+}
+
+.testimonial .profile .rating {
+    font-size: 1.1em;
+    color: #ffeb3b; 
+}
+
+
+.feedback {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #f9f9f9; 
+}
+
+
+.testimonial:nth-child(1) {
+    background-color: #216133; /* Green */
+/* }
+
+.testimonial:nth-child(2) {
+    background-color: #216133; /
+}
+
+.testimonial:nth-child(3) {
+    background-color: #216133; 
+} */ 
+
+/* General container styling with background image */
+
+/* Apply background image to the whole page */
+body {
+    margin: 0;
+    padding: 0;
+    background: url('https://img.pikbest.com/wp/202345/aquarium-background-plants-live-in-an-with-dark-backgrounds_9579878.jpg!w700wp') no-repeat center center fixed; /* Background image */
+    background-size: cover; /* Ensure the image covers the entire page */
+    font-family: 'Arial', sans-serif;
+    color: white; /* Default text color to white for contrast against dark backgrounds */
+}
+
+/* General container styling */
+.testimonials {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 40px;
+    z-index: 2; /* Keep testimonials above any overlay or other elements */
+    position: relative;
+}
+
+/* Testimonial box styling */
+.testimonial {
+    background-color: rgba(181, 190, 184, 0.85); /* Slightly transparent white */
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    min-width: 250px;
+    max-width: 300px;
+    text-align: center;
+    color: #333; /* Darker text color for contrast */
+    transition: transform 0.3s ease;
+    position: relative;
+}
+
+.testimonial:hover {
+    transform: translateY(-5px); /* Hover effect */
+}
+
+/* Profile styling */
+.testimonial .profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.testimonial .profile img {
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    margin-bottom: 10px;
+    border: 3px solid rgb(7, 103, 4);
+}
+
+.testimonial .profile h3 {
+    font-size: 1.2em;
+    margin-bottom: 5px;
+    color: #045216; /* Green for name */
+}
+
+.testimonial .profile .rating {
+    font-size: 1.1em;
+    color: #ffeb3b; /* Gold color for stars */
+}
+
+/* Feedback section */
+.feedback {
+    font-size: 0.95em;
+    line-height: 1.6;
+    color: #555; /* Darker text for readability */
+}
+.container{
+    text-align: center;
+
+}

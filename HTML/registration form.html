@@ -1,0 +1,89 @@
+<html>
+<head>
+<title>Registration Form
+</title>
+</head>
+<body>
+<h1 style="text-align:center">Registration</h1>
+<form action="/submit_registration" method ="post">
+
+<label for="username">Username:</label><br>
+<input type="text" id="username" name="username"><br><br>
+
+<label for="email">Email:</label><br>
+<input type="email" id="email" name="email"><br><br>
+
+<label for="password">Password:</label><br>
+<input type="password" id="password" name="password"><br><br>
+
+<label for="confirm_password">Confirm Password:</label><br>
+<input type="password" id="confirm_password" name="confirm_password"><br><br>
+
+<label for="gender">Choose your gender:</label><br><br>
+
+<label class="radio-inline">
+<input type="radio" name="gender" value="male" ngModel>
+Male<br>
+</label>
+
+<label class="raio-inline">
+<input type="radio" name="gender" value="female" ngModel>
+Female<br>
+</label>
+
+<label class="raio-inline">
+<input type="radio" name="gender" value="others" ngModel>
+Others<br>
+</label><br>
+
+ 
+
+      <label for="branch">Branch:</label>
+
+      <select name="branch" id="branch">
+
+        <option value="choose one">Choose One</option>
+
+        <option value="CSE">CSE</option>
+
+        <option value="AIML">AIML</option>
+
+        <option value="IT">IT</option>
+
+        <option value="DS">DS</option>
+        
+        </select>
+<br><br>
+
+<label for="hobbies">Choose your hobbies:</label>
+        <br>
+        <input type="checkbox"
+               name="Cricket"
+               value="yes">Cricket
+        <br>
+        <input type="checkbox"
+               name="Painting"
+               value="yes">Painting
+        <br>
+        <input type="checkbox"
+               name="Reading books"
+               value="yes">Reading books
+        <br>
+        <input type="checkbox"
+               name="Browsing net"
+               value="yes">Browsing net
+        <br><br><br>
+
+     <input type="submit" value="Register" />
+
+
+</body>
+</html>
+
+      
+
+
+
+
+
+

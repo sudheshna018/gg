@@ -1,0 +1,361 @@
+/* h1{
+     color:rgb(220, 13, 106);
+}
+p{
+     color:darkturquoise
+}
+button{
+     color:cadetblue
+
+}
+body{
+     background-color:rgb(101, 41, 81)
+     
+}
+button{
+     background-color:#00ff00
+} 
+ *{
+     color:deeppink;
+} 
+#heading1{
+     color:aqua
+}
+#heading2{
+     color:darkcyan
+}
+#heading3{
+     color:darkturquoise
+} */
+ /* #box{
+     background-color:blue
+} 
+ h1{
+     color:crimson;
+     text-align:center;
+     text-decoration:green wavy underline;
+     font-family:cursive;
+}
+
+body{
+     background-color:rgb(240, 129, 214);
+}
+a{
+     
+     color:rgb(1, 11, 21);
+     text-decoration:solid;
+     
+} */ 
+              /* THIS IS CSS LEVEL 2 */
+
+ 
+
+ /* #container{
+     height:400px;
+     width:100px;
+     border-color:black;
+     background-color:black;
+ }
+ #one{
+     background-color:red;
+     height:100px;
+     width:100px;
+     border-radius:50%
+ }
+ #two{
+     background-color:yellow;
+     height:100px;
+     width:100px;
+     border-radius:50%
+ }
+ #three{
+     background-color:green;
+     height:100px;
+     width:100px;
+     border-radius:50%
+ }  */
+
+ /* div{
+     height:200px;
+     width:200px;
+     background-color: rgb(255, 0, 0);
+     color:white;
+     position:absolute;
+     top:100px;
+     left:100px;
+     animation-name: coloranimate;
+     animation-duration: 2s;
+     animation-delay: 2s;
+     animation-iteration-count: infinite;
+     animation-timing-function: ease-in-out;
+     animation-direction:reverse
+     transition-property: all;
+     transition-duration: 2s;
+     transition-timing-function: ease-in;
+     transition-delay:1s;
+ }
+ @media (min-width:400px)and(max-width:600px){
+     div{
+          background-color: red;
+     }
+ }
+ div:hover{
+     background-color:rgb(255, 0, 174);
+     font-size:20px;
+     
+     transform:rotate(90deg);
+     transform:translate(100px);
+     transform:skew(90deg); 
+     transform:scale(2);
+     rotate:360deg;
+     transform:translate(20px);
+
+ }
+div:active{
+     background-color: rgb(208, 226, 43);
+
+}
+@keyframes coloranimate{ 
+     from{background-color: blue;} to{background-color: crimson;}
+     0%{left:0px;
+     background-color: red;}
+     50%{
+          background-color: gold;
+     }
+     100%{left:200px;background-color: rgb(0, 17, 255);}
+}*/
+/* #Loader{
+     width:200px;
+     height:200px;
+     background-color: aqua;
+     border-radius:50%;
+     border:20px solid yellow;
+     border-top:20px solid rgb(255, 0, 140);
+     animation:spin 2s ease-in-out 0s infinite normal;
+     
+}
+@keyframes spin{
+     from{transform:rotate(0deg)
+     }
+     to{transform:rotate(360deg)}
+}
+
+      */
+
+      /* (absolute)
+      1.it moves one level top
+      2.we can move it where ever we want
+      3.it moves wrt screen size */
+      /* (sticky)
+      1.If we scroll ,it sticks to the specific position which we have specified.*/
+     /* (fixed)
+     1.the position of that element is fixed every time */
+     /* (relative)
+     1.child element moves wrt the parent element */
+.box{
+     /* position:sticky; */
+     top:0px;
+     border:1px solid lightgray;
+     width:300px;
+     /* padding:10px;Space inside the border */
+     margin:10px auto;/*space outside the border*/
+     border-radius: 14px;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif 
+}
+.center{
+     text-align:center;
+}
+.box-img{
+     width:100%;
+     border-top-right-radius: 14px;
+     border-top-left-radius: 14px;
+}
+.padding{
+     padding:14px;
+}
+
+.card{
+     width:250px;
+     padding:10px;
+     margin:10px auto;
+     border:1px solid lightgray;
+     border-radius:14px;
+     font-family:system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif'
+}
+.img-card{
+     width:100%;
+     border-radius:14px;
+}
+.bg{
+     background-color: rgb(89, 0, 255);
+     color:white;
+     width:400px;
+     padding:20px;
+     margin:14px auto;
+     border-radius:25px;
+}
+.btn{
+     background-color: white;
+     color:black;
+     border:none;
+     padding:10px;
+     font-size:15px;
+     border-radius:50px;
+}
+.button{
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+     width:400px;
+     margin:80px auto;
+     background-image:url("https://media.istockphoto.com/id/1295094894/vector/blue-brush-pattern-background.jpg?s=612x612&w=0&k=20&c=OqEJXuGg1gj0Ono3GJ_DgrU5ADTF8-lk46i_pgbq0oc=")
+     
+     
+}
+.input{
+     width:100%;
+     margin-bottom: 12px;
+     box-sizing:border-box;
+    padding:15px;
+    border-radius:10px;
+    border:1px solid lightgray;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    
+}
+.btn{
+     background-color: black;
+     color:white;
+     padding:20px;
+     width:100%
+}
+.help{
+     position:fixed;
+     right:100px;
+     bottom:100px;
+     color:white;
+     background-color:black;
+     padding:14px;
+     font-size:15px;
+     border-radius:30px;
+
+}
+.India{
+     position:relative;
+     width:670px;
+     margin:30px auto;
+
+}
+.img-India{
+     width:100%;
+     border-radius:50px;
+}
+.img-content{
+     position:absolute;
+     top:0px;
+     color:black;
+
+}
+.explore{
+     background-color:darkblue;
+     color:rgba(230, 0, 255, 0.999);
+     border:none;
+     font-size:18px;
+     padding:10px;
+     border-radius:20px;
+}
+.first{
+     position:relative;
+     margin:30px auto;
+}
+.img-1{
+     width:300px;
+
+     
+}
+.img-2{
+     position:absolute;
+     left:40px;
+     bottom:0px;
+     right:20px;
+     height:80px;
+     width:80px;
+     border-radius:50%;
+     margin-bottom:-40px;
+     border:1px solid white;
+}
+
+
+
+.bts{
+     width:300px;
+     /* padding:14px; */
+     border:1px solid lightgray;
+     border-radius:10px;
+     margin:10px auto;
+     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+.img-bts{
+     width:100%;
+     border-radius:14px;
+     border-bottom-right-radius: 0px;
+     border-bottom-left-radius: 0px;
+}
+.text{
+     padding:20px;
+}
+
+/*by using display:flex==> all child elements will come side by side
+justify-content==> horizontal alignment
+align-items==> vertical alignment
+justify-content:space-between==> it adjusts the size of the element according to the size of the screen
+flex-wrap:wrap==> if we reduce the size of the screen then the elements start appearing vertically.
+*/
+
+.flex-box{
+     display:flex;
+     gap:20px; 
+     justify-content:space-between;
+     flex-wrap:wrap;
+     /* display:none; */
+}
+
+.demo{
+     margin:20px auto;
+     border:1px solid lightgray;
+     border-radius:14px;
+     width:300px;
+     padding:5px;
+     font-family: Arial, Helvetica, sans-serif;
+}
+.demo-img{
+     width:100%;
+     border-radius:14px;
+     border:1px solid lightgray;
+
+}
+.user{
+     height:60px;
+     width:60px;
+     border-radius:50%;
+
+}
+.profile{
+     display:flex;
+     
+     gap:10px;
+     align-items:center;
+}
+.name{
+     margin:0px;
+}
+.username{
+     margin:0px;
+     font-size:13px;
+     color:rgb(67, 65, 65);
+}
+.header{
+     display:flex;
+     justify-content: space-between;
+     align-items:center;
+     gap:100px;
+     margin-bottom:15px;
+}
